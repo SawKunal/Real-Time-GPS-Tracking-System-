@@ -1,0 +1,15 @@
+Check if browser supports geolocation.
+
+Set options for high accuaracy, a 5 second timeout, and no caching.
+
+use watchposition to track the users location continuously.
+
+emit scoket with "send-location".
+
+Initialize a map centered at coordinates(0,0).
+
+Create an empty object markers.
+
+When receving location data via the socket, extract id, latitude, and longitutde and center the map on the new coordinates.
+
+If marker exits, update its position, otherwise, create a new marker.
