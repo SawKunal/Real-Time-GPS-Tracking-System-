@@ -29,7 +29,7 @@ Every connected user can share their live GPS position, and all clients will see
 ---
 
 ## 📁 Folder Structure
-
+```
 project-folder/
 │── app.js
 │── package.json
@@ -42,3 +42,4 @@ project-folder/
 │
 └── views/
 └── index.ejs
+```
